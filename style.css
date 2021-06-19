@@ -1,0 +1,30 @@
+.btn-success:hover{
+    background-color: rgb(81, 154, 167);
+    animation-name: BTN;
+    animation-duration: 10s;
+    animation-iteration-count: 5;}
+h1{
+    font-size: 36px!important;
+}
+    h1:hover{
+    font-size: 40px!important;
+}
+
+canvas{
+    animation-name: Canimatiom;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Canimatiom{
+    from{border-style:groove;border-width: 8nm;border-color: rgb(0, 60, 255);box-shadow: 20 20 20 rgb(247, 13, 255);transform:scale3d(1.345412515,1,1);transform:rotateY(10deg)}
+    to{border-style:ridge;border-width: 1cm;border-color: rgb(43, 255, 0);box-shadow: 20 20 20 lavender;border-radius: 10mm;transform:scale3d(1.2,1.2,1.4);transform:rotateZ(50deg)}
+}
+
+@keyframes BTN{
+    from{border-radius: 5cm;border-width: 10px; border-style:double}
+    5%{transform:translateX(10px)}
+    7%{transform:skew(10deg,20deg)}
+    10%{transform:rotateZ(90deg)}
+    30%{color: aquamarine!important;}
+}
