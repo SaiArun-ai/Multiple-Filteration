@@ -14,11 +14,43 @@
 </head>
 
 <body background="Moustache + Lipstick Background.png">
-  <center>
-    <h1 class = "btn btn-info">Filterer of ze face</h1>
-    <br><br><br>
-    <button id = "takesnapshot" onclick = "TakeSnapshot()" class = "btn btn-success">Take A Snapshot</button>
-  </center>
+  <section id = "Interact">
+    <center>
+      <h1 class = "btn btn-info">Filterer of ze face</h1>
+      <br>
+      <br>
+
+    <h3 class = "btn btn-success"> Do you want Lipstick or Moustache(A for Lipstick and B for Moustache)</h3>
+    <br>
+    <br>
+    <input id = "AorB" placeholder="Type A or B">
+    <br>
+    <br>
+    <button onclick = "Select()">Submit Choice</button>
+    <br>
+    <br>
+    <h3 id = "Error"></h3>
+    </center>
+  </section>
+  <br>
+  <br>
+  <br>
+  <section id = "Filter" style = "display:none">
+    <center>
+      <h1 class = "btn btn-info">Filterer of ze face</h1>
+      <br><br><br>
+      <button id = "takesnapshot" onclick = "TakeSnapshot()" class = "btn btn-success">Take A Snapshot</button>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <button onclick="Back()" >Back</button>
+    </center>
+  </section>
+  
   
 <script src="main.js"></script>
 </body>

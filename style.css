@@ -28,3 +28,10 @@ canvas{
     10%{transform:rotateZ(90deg)}
     30%{color: aquamarine!important;}
 }
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.1s 0.5s ease; 
+    text-indent: -80%;
+	opacity: 0.9;
+	color: rgb(121, 182, 218);
+}
